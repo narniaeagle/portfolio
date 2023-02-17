@@ -7,9 +7,44 @@ body{
   text-align: center;
 }
 .nav-top{
-  border: 5px solid white;
-  margin: 10px;
+  border: 0.3rem solid white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height:4rem;
 }
-span{
-  margin: 44px;
+.nav-top-items{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  color:white;
+  background-color: rgb(28, 28, 60);
+  border:solid 2px;
+  border-color: rgb(25, 15, 2);
+  border-radius: 32px;
+  height:44px;
+  width: 80px;
+  margin-left: 24px;
+  margin-right: 24px;
+}/* self note I should start doing these by rem */
+.btn1{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  color:white;
+  background-color: rgb(28, 28, 60);
+  border:solid 2px;
+  border-color: rgb(25, 15, 2);
+  border-radius: 32px;
+}
+.btn1:hover{
+  background-color:rgb(196, 196, 255);
+
+}
+.btn1:active{
+  background-color:purple;
+
+}
+a{
+  text-decoration: none;
 }

@@ -7,23 +7,23 @@ body{
   text-align: center;
 }
 .nav-top{
-  border: 0.3rem solid white;
   display: flex;
   align-items: center;
   justify-content: center;
-  height:4rem;
+  height:6rem;
+  border: solid 5px rgb(119, 204, 207);
 }
 .nav-top-items{
   display:flex;
   align-items: center;
   justify-content: center;
   color:white;
-  background-color: rgb(28, 28, 60);
+  background-color: rgb(205, 105, 57);
   border:solid 2px;
   border-color: rgb(25, 15, 2);
   border-radius: 32px;
-  height:44px;
-  width: 80px;
+  height:3rem;
+  width: 8rem;
   margin-left: 24px;
   margin-right: 24px;
 }/* self note I should start doing these by rem */
@@ -31,14 +31,16 @@ body{
   display:flex;
   align-items: center;
   justify-content: center;
-  color:white;
-  background-color: rgb(28, 28, 60);
-  border:solid 2px;
+  color:black;
+  background-color: rgb(119, 204, 207);
+  border:solid 0.2rem;
   border-color: rgb(25, 15, 2);
   border-radius: 32px;
+  font-size: 1rem;
+  font-weight: bold;
 }
 .btn1:hover{
-  background-color:rgb(196, 196, 255);
+  background-color:rgb(49, 170, 179)
 
 }
 .btn1:active{
@@ -47,4 +49,26 @@ body{
 }
 a{
   text-decoration: none;
+}
+.home{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image-container{
+  width:16rem;
+  height:16rem;
+  margin-right: 2rem;
+}
+.pimage{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  border-radius: 60%;
+  border: solid 5px rgb(119, 204, 207);
+}
+.land-text{
+  width:20%;
+  border: solid 5px rgb(119, 204, 207);
+
 }

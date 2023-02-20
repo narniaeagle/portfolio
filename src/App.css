@@ -26,7 +26,7 @@ body{
   width: 8rem;
   margin-left: 24px;
   margin-right: 24px;
-}/* self note I should start doing these by rem */
+}
 .btn1{
   display:flex;
   align-items: center;
@@ -50,6 +50,9 @@ body{
 a{
   text-decoration: none;
 }
+.footer-icons{
+  margin-top: 6rem;
+}
 .home{
   display: flex;
   justify-content: center;
@@ -60,7 +63,7 @@ a{
   height:16rem;
   margin-right: 2rem;
 }
-.pimage{
+.profile-image{
   width:100%;
   height:100%;
   object-fit:cover;
@@ -70,5 +73,24 @@ a{
 .land-text{
   width:20%;
   border: solid 5px rgb(119, 204, 207);
-
+}
+.project-image{
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  border: solid 5px rgb(119, 204, 207);
+  border-radius: 20%;
+}
+.project-image:hover{
+  opacity: 0.4;
+}
+.projects{
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: center;
+}
+.column{
+  margin-right: 2rem;
+  margin-top: 2rem;
+  flex: 1 1 30%;
 }

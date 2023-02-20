@@ -7,7 +7,7 @@ const Footer = () => {
         <div>
             <div className="footer-icons">
             <IconContext.Provider value={{size: 44}}>
-                <a href="https://www.linkedin.com/in/alpagu-ilgar-saka-196b4a230"><BsLinkedin style={{ color: "#5c82d1" }} /></a>
+                <a href="https://www.linkedin.com/in/alpagu-ilgar-saka-196b4a230"><BsLinkedin style={{ color: "#5c82d1" ,marginRight:"1rem"}} /></a>
                 <a href="https://github.com/narniaeagle"><BsGithub style={{color: '#b53198'}}/></a>
             </IconContext.Provider>
             </div>
